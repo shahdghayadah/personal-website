@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>assignment -1-</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+  .right{
+    display: grid;
+    grid-template-columns:100%;
+    gap: 10px;
+    padding: 10px;
+  }
+  .left{
+    display: grid;
+    grid-template-columns:100%;
+    gap: 10px;
+    padding: 10px;
+  }
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto
+   ;
+  gap: 50px ;
+  padding: 10px;
+}
+
+.left> div {
+  text-align: left;
+  padding: 20px 0;
+  font-size: 20px;
+  height: 500px;
+  width: 100%;
+  padding-left: 20px;
+  border-radius: 25px;
+  border: 3px solid rgb(239, 234, 234);
+
+
+}
+.right> div {
+  text-align: left;
+  padding: 20px 0;
+  font-size: 20px;
+  height: 500px;
+  width: 100%;
+  padding-left: 20px;
+  border-radius: 25px;
+  border: 3px solid rgb(239, 234, 234);
+
+  
+
+
+}
+.animation {
+  width: 100%;
+  height: 400px;
+  background-image: url(seco.jpeg) ; background-repeat: no-repeat;
+   background-size: cover;
+  background-position: center;;
+  animation-name: example;
+  animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
+  padding: 70px 0;
+
+}
+
+
+@keyframes example {
+  from {background-image: url(first.jpg) ; background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: #ddd;
+       }
+  to {background-image: url(seco.jpeg) ; background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: rgb(0, 0, 0);
+
+  }
+}
+.img { 
+width: 90%; max-height:250px; 
+}
+body{
+  background-color: rgb(246, 240, 240);
+}
+@media screen and (max-width: 1050px) {
+    .grid-container{
+    grid-template-columns: auto;
+    
+
+    }
+    
+ .img{ width: 70%; max-height:auto; 
+   }
+
+  }
+
+  @media screen and (max-width: 730px) {
+    .grid-container{
+    grid-template-columns: 100%;
+
+    }
+
+.left > div { font-size: 15px;}
+.right > div {font-size: 15px;}
+    }
+
+
+    @media screen and (max-width: 550px) {
+    .grid-container{
+    grid-template-columns: 100%;
+
+    }
+
+.left > div { font-size: 14px;}
+.right > div {font-size: 15px;}
+.img2{
+  display: none;
+}
+    }
+
+
+    
+    .img2 {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+</style>
+<body>
+
+<div class="animation"></div>
+ <hr>
+        <div class="grid-container ">
+          <div class="left">
+            <div > <b>Univarsity :</b><br><br> 
+              The University emphasizes excellence in academic programs and the development <br>
+              of students as committed people prepared to assume leading positions in society.<br>
+               The University fosters shared values, moral principles, and dedication to serving <br>
+               the common good.institution of higher learning founded in 1973 in the Lasallian tradition<br>
+                
+                <img src="BU-Logo-Transparent-Black-font-01.png" alt=""  class="img" >
+
+
+              </div>
+            <div class="clearfix">
+              <img  class="img2" src="Bethlehem_collage.jpg" alt="" width="270" height="170" style="max-width: 300px;height: 100%;" >
+
+              <b>About my city</b> <br><br>
+             My city is Bethlahem, is a city in the central West Bank, Palestine, <br>
+              about 10 km (6.2 miles) south of Jerusalem. <br>
+              Its population is approximately 25,000,<br>
+               and it is the capital of the Bethlehem <br>
+               Governorate of the State of Palestine. <br>
+               when Christians make pilgrimage to the Church of the Nativity.<br>
+               The important holy site of Rachel's Tomb is at the northern entrance <br>
+               of Bethlehem, though not freely accessible to the city's own inhabitants and in general Palestinians<br>
+               and it is the capital of the Bethlehem <br>
+               Governorate of the State of Palestine. <br><br>
+               when Christians make pilgrimage to the Church of the Nativity.<br>
+               The important holy site of Rachel's Tomb is at the northern entrance <br>
+            </div>
+            <div class="clearfix" >
+              <img  class="img2" src="html-code-svgrepo-com.svg" alt=""   width="270" height="170" style="max-width: 300px;height: 100%;">
+              <b>Majer :</b><br><br><b>Software engineers</b>
+              sometimes called software developers<br>
+              create software for<br>
+               computers and applications. <br>
+               If you’re an analytical thinker who <br>
+               enjoys solving problems and making digital products easier to use,<br>
+               you may find a career as a software engineer rewarding.<br>
+               sometimes called software developers<br>
+              create software for
+               computers and applications. <br><br>
+               If you’re an analytical thinker who <br>
+               enjoys solving problems and making digital products easier to use,<br>
+               you may find a career as a software engineer rewarding.<br>
+
+         </div>
+           <div style="background-image: url(images.png) ;   background-repeat: no-repeat; background-size: cover;" >
+            <b>I am studing with Manara</b>
+            <a href="https://manara.tech/" style="display:inline ;"><img src="images.png" alt="" style="background-repeat: 
+              no-repeat; width: 100%; height: 100%; background-size: cover;"></a>
+
+          </div>
+          </div>
+
+
+
+
+
+
+          <div class="right">
+         
+            <div >
+              <img src="programmer-svgrepo-com.svg" alt="" class="img" ><br> <br>
+             <p style="font-size:15px ;"> <b>Who am i?<br>  <br>     
+                Name: Shahd Ghayadah<br><br>
+                Age: 20<br><br>
+                Majer: Software engineering<br><br>
+                Academic status: Student<br><br>
+                Country: Palestine<br><br>
+                Birth Date:19/06/2002<br></b></p>
+            </div>
+            <div><p><b>Hobbies : </b> <br> <br> <br>Playing chess <br> <br> <br> 
+              reading books <br><br><br>
+              writing using Arabic calligraphy<br><br><br>
+              handball<br><br><br>
+                </p>
+                <img src="woman-playing-handball-svgrepo-com.svg" alt="" style="max-width: 50px ;">
+                <img src="chess-svgrepo-com.svg" alt="" style="max-width: 50px ;">
+                <img src="book-svgrepo-com.svg" alt="" style="max-width: 50px ;">
+                <img src="arabic-muslim-svgrepo-com.svg" alt="" style="max-width: 50px ;">
+              </div>
+            <div><b>Swer 353 weeks</b>  <br><br>
+              <img src="code-svgrepo-com.svg" alt=""  style="max-width: 100px ;margin-left: auto; margin-right: auto; "><br>
+
+              week1:<a href="http://206399.epizy.com/lab1.html?i=1" target="_blank"> Lab 1</a> <br><br>
+              week2:<a href="http://206399.epizy.com/lab2.html?i=1" target="_blank"> Lab 2</a> <br><br>
+              week3:<a href="http://206399.epizy.com/lab3.html?i=1" target="_blank"> Lab 3</a> <br><br>
+              week4:<a href="http://206399.epizy.com/lab4.html?i=1" target="_blank"> Lab 4</a> <br><br>
+              week5:<a href="http://206399.epizy.com/lab5.html?i=1" target="_blank"> Lab 5</a> <br><br>
+              week6:<a href="http://206399.epizy.com/lab6.html?i=1" target="_blank"> Lab 6</a> <br>
+             
+            </div>
+            <div > Back-end engineers carry much of <br>the heavy weight involved <br>
+              in a software development project, but <br>they don’t always get  <br>
+              the credit for the work that they do. <br>
+              Back-end engineers need<br> both soft and technical <br>
+               skills to successfully do their job. <br><br>
+               <img src="sofEng.svg" alt="">
+            </div>
+          </div>
+        </div>
+<div style="text-align:center ;"> Brebar by shahdghayada,
+   <br>
+  <a href="https://www.facebook.com/profile.php?id=100009891704374" style="display:inline ;"><img src="facebook-svgrepo-com.svg" alt="" style="max-width: 20px;"></a>
+  <a href="https://www.instagram.com/shahdghayadah/" style="display:inline ;"><img src="instagram-svgrepo-com.svg" alt="" style="max-width: 20px;"></a>
+  <a href="https://www.facebook.com/profile.php?id=100009891704374" style="display:inline ;"><img src="email-svgrepo-com.svg" alt="" style="max-width: 20px;"></a>
+  <a href="https://github.com/shahdghayada" style="display:inline ;"><img src="github-svgrepo-com.svg" alt="" style="max-width: 20px;"></a>
+</div>
+</body>
+</html>

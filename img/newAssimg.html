@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>assignment -1-</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          a {
+    color: rgb(79, 149, 161);
+    text-decoration: none;
+    ;
+    display: inline;
+
+  }
+  
+  a:visited {
+    color: rgb(216, 86, 108);
+    background-color: transparent;
+    text-decoration: none; /*بتستخدم حتى تحذف الخط الي تحت اللينك*/
+  }
+  
+  a:hover {
+    color: rgb(21, 19, 19);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+ 
+ h1{
+    text-align: center;}
+ #grid-container {
+
+          display: grid;
+          grid-template-columns: auto  auto  auto;
+          gap: 20px 50px;
+          padding: 4px;
+          grid-template-rows: 230px 230px;
+
+        }
+ #grid-container > aside {
+    background-color:rgb(222, 213, 213);
+    text-align: left;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 30px;
+    border-radius: 25px;
+
+  }  
+  body{
+      background-color: rgb(162, 152, 162);
+    }         
+  @media screen and (max-width: 900px) {
+    #grid-container{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 230px 230px;
+    
+
+    }
+    
+ 
+
+  }
+  @media screen and (max-width: 600px) {
+    #grid-container{
+    grid-template-columns: 100%;
+    grid-template-rows: 230px 230px;
+
+    }
+    
+    }
+   h1{
+    color: black !important;
+   }
+  
+  
+  p{font-size: 14px;}
+    body{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100%; 
+
+     
+    }  
+
+    img {
+  border: 1px solid #ddd;
+  padding: 5px;
+  max-width: 150px;
+  max-height: 100px;
+}
+
+.hed {
+max-width: 350px;
+  background-color:rgb(222, 213, 213);
+  text-align: center;
+  margin: 0 auto 0 auto;
+border-style: 1px solid;
+border-radius: 25px;
+}
+.animation {
+  width: 100%;
+  height: 400px;
+  background-image: url(1_2YkI_uNdLy6WhQYBPpKi9g.jpeg) ; background-repeat: no-repeat;
+   background-size: cover;
+  background-position: center;;
+  animation-name: example;
+  animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
+  padding: 70px 0;
+
+}
+
+@keyframes example {
+  from {background-image: url(2.jpg) ; background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: #ddd;
+       }
+  to {background-image: url(1_2YkI_uNdLy6WhQYBPpKi9g.jpeg) ; background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: rgb(0, 0, 0);
+
+  }
+}
+  </style>
+ 
+            
+    </head>
+<body  >
+ <div class="animation"></div>
+ <hr>
+ <div id =grid-container>
+  <aside><p ><b>personal information</b><br>
+    Name: Shahd Ghayadah<br>
+    Age: 20<br>
+    Majer: Software engineering<br>
+    Academic status: Student<br>
+    Nationality: Palestinian	<br>
+    Marital Status: Single<br>
+    Country: Palestine<br>
+    Birth Date:19/06/2002<br>
+    Gender:Female</p></aside>
+  <aside><p><b>Univarsity</b>
+  Im student in Bethlahem Univarsity<br>location of my Univarsity Bethlahem-Palestain</p>
+  <img src="download.png" alt="" >
+</aside>
+  <aside><p><b>Software engineers</b>
+     sometimes called software developers<br>
+     create software for<br>
+      computers and applications. <br>
+      If you’re an analytical thinker who <br>
+      enjoys solving problems and making digital products easier to use,<br>
+      you may find a career as a software engineer rewarding.</p>
+
+    </aside>
+  <aside><p style="display:non-block;"><b>Bethlahem City </b>is a city in the central West Bank, Palestine, <br>
+    about 10 km (6.2 miles) south of Jerusalem. <br>
+    Its population is approximately 25,000,<br>
+     and it is the capital of the Bethlehem <br>
+     Governorate of the State of Palestine. </p>
+     <img src="104284435-GettyImages-533543800.jpg" alt="">
+  </aside>
+  <aside style="font-size: 20px;"><p><b>Swer 353 weeks</b></p>
+    week1:<a href="http://206399.epizy.com/lab1.html?i=1" target="_blank"> Lab 1</a> <br>
+    week2:<a href="http://206399.epizy.com/lab2.html?i=1" target="_blank"> Lab 2</a> <br>
+    week3:<a href="http://206399.epizy.com/lab3.html?i=1" target="_blank"> Lab 3</a> <br>
+    week4:<a href="http://206399.epizy.com/lab4.html?i=1" target="_blank"> Lab 4</a> <br>
+    week5:<a href="http://206399.epizy.com/lab5.html?i=1" target="_blank"> Lab 5</a> <br>
+    week6:<a href="http://206399.epizy.com/lab6.html?i=1" target="_blank"> Lab 6</a> <br>
+</aside>
+  <aside><p><b>Hobbies : </b><b> </b>Playing chess <br>
+    reading books <br>
+    writing using Arabic calligraphy<br>
+      </p></aside>
+
+      
+</div>
+
+<aside class="hed"><p>communication way : <br>
+  Email: shahedsa3d.2002.s@gmail.com<br>
+  Instagram: shahdghayadah<br>
+  Snapchat : shahdghayadah <br>
+</p>
+  <aside>
+
+</body>
+</html>
